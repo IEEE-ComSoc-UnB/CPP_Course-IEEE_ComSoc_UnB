@@ -9,13 +9,13 @@ int main()
 {
 	setlocale(LC_ALL, "Portuguese");
     /*
-		Uma função inline é usada para reduzir a sobrecarga das chamadas de funções.
-		Uma chamada de função envolve uma sobrecarga em termos do tempo levado para se
-		executar algumas etapas adicionais necessárias para sua realização da função. 
+		Uma funÃ§Ã£o inline Ã© usada para reduzir a sobrecarga das chamadas de funÃ§Ãµes.
+		Uma chamada de funÃ§Ã£o envolve uma sobrecarga em termos do tempo levado para se
+		executar algumas etapas adicionais necessÃ¡rias para sua realizaÃ§Ã£o. 
 		
-		Quando você declara um função como inline, o corpo da função é expandido no 
-		ponto em que é invocada. Ela não é compilada como um pedaço separado do código.
-		O código da função é inserido sempre que uma chamada dessa função é criada.
+		Quando vocÃª declara uma funÃ§Ã£o como inline, o corpo da funÃ§Ã£o Ã© expandido no 
+		ponto em que Ã© invocada. Ela nÃ£o Ã© compilada como um pedaÃ§o separado do cÃ³digo.
+		O cÃ³digo da funÃ§Ã£o Ã© inserido sempre que uma chamada dessa funÃ§Ã£o Ã© criada.
 				 		 
 	*/
 	int a,b,c,d,r,s;
@@ -23,10 +23,10 @@ int main()
 	s = somar(c,d);
 	
 	/*
-       Todas as vezes que afunção somar() é invocada, o código da função é incluido no
+       Todas as vezes que afunÃ§Ã£o somar() Ã© invocada, o cÃ³digo da funÃ§Ã£o Ã© incluido no
        progama chamador main().
-	   O programa main() é interpretado, do ponto de vista do compilador, como mostra 
-	   o código abaixo:
+	   O programa main() Ã© interpretado, do ponto de vista do compilador, como mostra 
+	   o cÃ³digo abaixo:
 	   
 	   void main()
 	   {
