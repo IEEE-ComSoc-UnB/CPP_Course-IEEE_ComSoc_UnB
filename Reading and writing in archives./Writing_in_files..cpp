@@ -10,15 +10,15 @@ int main()
 {
 	setlocale(LC_ALL, "Portuguese");
     /*
-		Para conectar um arquivo ao programa para entrada e saida você precisa
-		incluir o arquivo de cabeçalho fstream em seu programa.
+		Para conectar um arquivo ao programa para entrada e saida vocÃª precisa
+		incluir o arquivo de cabeÃ§alho fstream em seu programa.
 		
-		A função open() é usada para abrir um arquivo em modo especificado. Você
-		pode então concectar o arquivo ao objeto de classe usando a função open()
+		A funÃ§Ã£o open() Ã© usada para abrir um arquivo em modo especificado. VocÃª
+		pode entÃ£o concectar o arquivo ao objeto de classe usando a funÃ§Ã£o open()
 		Uso:
 			open(nome_do_arquivo, modo)
 			
-		A função close() é usada para desconectar explicitamente um arquivo de um programa.
+		A funÃ§Ã£o close() Ã© usada para desconectar explicitamente um arquivo de um programa.
 		 	
 	*/
 	string frase;
@@ -28,19 +28,24 @@ int main()
 	ofstream escreve;
 	escreve.open("batata.txt");
 	escreve << "Utilizamos os objetos ofstream para escrever em arquivos\n";
-	escreve<< "Note que podemos utilizar os caracteres \\n pra quebrar a linha, como fazíamos em cout\n";
+	escreve<< "Note que podemos utilizar os caracteres \\n pra quebrar a linha, como fazÃ­amos em cout\n";
 	int numero = 100;
 	escreve<<"Podemos escrever o valor de variaveis numericas: " <<numero <<"\n";
 	int matriz[3] = {42, 19, 99};
-	escreve<<"Podemos também escrever matrizes!";
-	for (int i=0; i < 3; i++){
-	escreve.width(6);
-	escreve<<matriz[i]<<" ";
+	escreve<<"Podemos tambÃ©m escrever matrizes!";
+	
+	for (int i=0; i < 3; i++)
+	{
+		escreve.width(6);
+		escreve<<matriz[i]<<" ";
 	}
+	
 	escreve<<"\n";
 	escreve<<"Finalmente, podemos receber dados via cin e escrever estes dados no arquivo!\n";
-	escreve<<"A frase que você digitou durante a execução do programa: "<<frase<<"\n";
+	escreve<<"A frase que vocÃª digitou durante a execuÃ§Ã£o do programa: "<<frase<<"\n";
+	
 	escreve.close();
+	
 	cout<<"Dados escritos no arquivo. Fim do Programa!";
 	
 	return 0;
