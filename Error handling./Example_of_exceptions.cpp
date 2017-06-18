@@ -15,23 +15,23 @@ int main()
 		 string sobrenome = "goku";
 		 string nome_completo;
 		
-/*1*/    nome.at(20) = 'B'; 				//Aciona a exceção out_of_range 
-/*2*/	 nome[30] = 'B'; 					//Aciona a exceção undefined behaviour
+/*1*/    nome.at(20) = 'B'; 				//Aciona a exceÃ§Ã£o out_of_range 
+/*2*/	 nome[30] = 'B'; 					//Aciona a exceÃ§Ã£o undefined behaviour
 	     nome_completo = nome + " " + sobrenome; 
 	     
 	     cout << nome_completo << endl; 
 	}
 	catch (const bad_alloc& e){
-//Erro de índice
-		 cerr << "O indice acessado não existe." << endl;
+//Erro de Ã­ndice
+		 cerr << "O indice acessado nÃ£o existe." << endl;
 		 exit(EXIT_FAILURE);
 	}
 	catch (const exception& e){
-		 cerr << "Exceção padrão: "<< e.what() << endl;
+		 cerr << "ExceÃ§Ã£o padrÃ£o: "<< e.what() << endl;
 		  exit(EXIT_FAILURE);
 	}
 	catch (...){
-		 cerr << "Qualquer outra exceção." << endl;
+		 cerr << "Qualquer outra exceÃ§Ã£o." << endl;
 		 exit(EXIT_FAILURE);
 	}
     
