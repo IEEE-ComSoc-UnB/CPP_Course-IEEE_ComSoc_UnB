@@ -1,6 +1,5 @@
 #include <iostream>
 #include <locale.h>
-#include <string>
 
 using namespace std;
 
@@ -8,17 +7,17 @@ int main()
 {
 	setlocale(LC_ALL, "Portuguese");
     /*
-		Uma função friend é usada para acessar todos os membros
-		da classe á qual a função tenha sido declarada como amiga.
+		Uma funÃ§Ã£o friend Ã© usada para acessar todos os membros
+		da classe Ã¡ qual a funÃ§Ã£o tenha sido declarada como amiga.
 		
-		Às vezes, uma função pode precisar acessar duas classes separadas.
-		Em C++, uma função pode acessar as duas classses, mesmo que ela não seja
-		membro de nenhuma das classes. Você faz isso ao declarar tal função como
+		Ã€s vezes, uma funÃ§Ã£o pode precisar acessar duas classes separadas.
+		Em C++, uma funÃ§Ã£o pode acessar as duas classses, mesmo que ela nÃ£o seja
+		membro de nenhuma das classes. VocÃª faz isso ao declarar tal funÃ§Ã£o como
 		uma amiga das classes que ela deseja acessar.
 		
-		Uma função friend pode ser:
-			* Uma função que não é membro.
-			* Uma função de membro de uma classe definida
+		Uma funÃ§Ã£o friend pode ser:
+			* Uma funÃ§Ã£o que nÃ£o Ã© membro.
+			* Uma funÃ§Ã£o de membro de uma classe definida
 			  anteriormente.
 			* Uma classe inteira.			 		 
 	*/
