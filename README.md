@@ -5,4 +5,4 @@ C ++ course offered by IEEE ComSoc - UnB. The source codes of the examples used 
 Members who will deliver the course:<br>
 Calil Bento Queiroz - calil.queiroz@ieee.org<br>
 <a href='https://github.com/BrunoVieiraDutra' >Bruno Vieira Dutra</a> - bruno.dutra@ieee.org<br>
-<a href='https://github.com/RJorge09Rafael' > Rafael Silva Jorge</a> - rafael.jorge09@ieee.org<br>
+<a href='https://github.com/RJorge09' > Rafael Silva Jorge</a> - rafael.jorge09@ieee.org<br>
