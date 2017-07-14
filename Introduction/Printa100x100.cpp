@@ -16,7 +16,7 @@ int main(){
     }
   }
   Ticks[1] = clock();
-  double tempo = (Ticks[1] - Ticks[0])*1.0/ CLOCKS_PER_SEC;
+  double tempo = (Ticks[1] - Ticks[0])*1.0 / CLOCKS_PER_SEC;
   cout << "\n\n\nTempo gasto para execução: " << tempo<<" segundos. \n";
 
   return 0;
