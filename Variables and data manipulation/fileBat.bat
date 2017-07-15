@@ -1,0 +1,2 @@
+nome_do_executavel.exe
+pause
