@@ -1,0 +1,23 @@
+Por que C++?
+
+Há uma variedade de razões pelas quais os programadores escolhem o C ++. 
+Aqui estão alguns: 
+
+•É rápido: 
+
+	Programas bem escritos em C ++ podem ser rápidos. Um dos objetivos de design do C ++ é o desempenho. 
+	E se você precisar apertar ainda mais o desempenho de seus programas, o C ++ permite que você use a 
+	linguagem de máquina (assembly) - a linguagem de programação de mais baixo nível - para se comunicar 
+	diretamente com o hardware do computador.
+	
+•É flexível: 
+
+	C ++ é uma linguagem multi-paradigma que oferece suporte aos diferentes estilos de programação, incluindo	
+	programação orientada a objetos. Ao contrário de algumas outras linguagens modernas, porém, o C ++ não força 
+	um estilo específico em um programador. 
+	
+•É bem suportado: 
+
+	Devido à sua longa história na indústria, há um grande conjunto de recursos disponíveis para o programador C ++, 
+	incluindo APIs gráficas 2D, 3D, física e mecanismos de som. Todo esse código pré-existente pode ser  utilizado 
+	por um programador C ++ para acelerar consideravelmente o processo de confecção de um novo projeto.
