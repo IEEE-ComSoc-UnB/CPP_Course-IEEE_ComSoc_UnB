@@ -1,13 +1,15 @@
 #include <iostream>
+#include <locale.h>
 
 using namespace std;
 
 int main()
 {
+	setlocale (LC_ALL,"Portuguese");
 	int num;
 	unsigned int dig = 1;
 	
-	cout << "Informe um numero: ";
+	cout << "Informe um número: ";
 	cin >> num;
 	
 	while(num > 9){
@@ -15,7 +17,7 @@ int main()
 		dig++;
 	}
 	
-	cout << "O numero tem " << dig << " digitos." << endl;
+	cout << "O número tem " << dig << " dígitos." << endl;
 	
 	system("pause");
 	return 0;

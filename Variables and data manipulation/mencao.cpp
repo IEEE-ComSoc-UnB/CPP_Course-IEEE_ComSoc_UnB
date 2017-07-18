@@ -1,16 +1,18 @@
 #include <iostream>
 #include <math.h>
+#include <locale.h>
 
 using namespace std;
 
 int main()
 {
+	setlocale (LC_ALL,"Portuguese");
 	double nota;
 	
 	cout << "Informe a nota do aluno: ";
 	cin >> nota;
 	
-	cout << "A mencao e ";
+	cout << "A menção é ";
 	if(nota == 0) {
 		cout << "SR." << endl;
 	} 
@@ -30,7 +32,7 @@ int main()
 		cout << "SS." << endl;
 	}
 	else {
-		cout << "Nota maior do que 10!“; 	}
+		cout << "Nota maior do que 10!"; 	}
 	
 	system("pause");
 	return 0;

@@ -1,21 +1,23 @@
 #include <iostream>
+#include <locale.h>
 
 using namespace std;
 
 int main()
 {
+	setlocale (LC_ALL,"Portuguese");
 	int num, res;
 	
-	cout << "Informe um numero :";
+	cout << "Informe um número : ";
 	cin >> num;
 	
 	res = num % 2;
 	
 	if(res == 0) {
-		cout << "O numero e par." << endl;
+		cout << "O número é par." << endl;
 	} 
 	else {
-		cout << "O numero e impar." << endl;
+		cout << "O número é ímpar." << endl;
 	}
 	
 	system("pause");

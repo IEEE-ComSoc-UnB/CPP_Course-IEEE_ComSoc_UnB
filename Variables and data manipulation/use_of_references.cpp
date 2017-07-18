@@ -7,19 +7,19 @@ int main()
 {
 	
     /*
-		Uma referÃªncia Ã© indicada usando-se o operador '&',
-		da mesma forma que um ponteiro Ã© indicado usando-se
+		Uma referência é indicada usando-se o operador '&',
+		da mesma forma que um ponteiro é indicado usando-se
 		o operador '*'.
-		Por exemplo vocÃª pode declarar a variÃ¡vel 'cebola' como 
-		uma referÃªncia para a variÃ¡vel 'batata'.
-		O uso principal de uma referÃªncia Ã© na passagem de um 
-		argumento para uma funÃ§Ã£o.
+		Por exemplo você pode declarar a variável 'cebola' como 
+		uma referência para a variável 'batata'.
+		O uso principal de uma referência é na passagem de um 
+		argumento para uma função.
 	*/
     
     string batata = "batata";
     string& cebola = batata;
     
     cout << cebola;
-    //Resulta em "Batata"
+    //Resulta em "batata"
     return 0;       
 }

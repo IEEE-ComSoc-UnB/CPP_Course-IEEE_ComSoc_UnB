@@ -1,9 +1,11 @@
 #include <iostream>
+#include <locale.h>
 
 using namespace std;
 
 int main()
 {
+	setlocale (LC_ALL,"Portuguese");
 	double n1, n2, r;
 	
 	cout << "Informe o dividendo:";
@@ -13,7 +15,7 @@ int main()
 	cin >> n2;
 	
 	if(n2 == 0) {
-		clog << "Atencao! Divisao por zero!" << endl;
+		clog << "Atenção! Divisão por zero!" << endl;
 	}
 	
 	r = n1/n2;

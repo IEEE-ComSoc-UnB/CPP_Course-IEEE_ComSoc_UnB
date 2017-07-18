@@ -1,26 +1,28 @@
 #include <iostream>
+#include <locale.h>
 
 using namespace std;
 
 int main()
 {
-	// Para definir uma constante usa-se a palavra-chave const antes do tipo da vari√°vel
-	// Lembre-se que: constante s√£o imut√°veis
-	// Geralmente (n√£o √© obrigat√≥rio) se denomina uma constante com LETRAS_MAI√öSCULAS separando o segundo nome com '_'
+	setlocale (LC_ALL,"Portuguese");
+	// Para definir uma constante usa-se a palavra-chave const antes do tipo da vari·vel
+	// Lembre-se que: constantes s„o imut·veis
+	// Geralmente (n„o È obrigatÛrio) se denomina uma constante com LETRAS_MAI⁄SCULAS separando o segundo nome com '_'
 	const int PONTOS_ALIEN = 150;
 	int aliensMortos = 10;
 	int pontuacao = aliensMortos * PONTOS_ALIEN;
 	
-	cout << "PONTUACAO: " << pontuacao << endl;
+	cout << "PONTUA«√O: " << pontuacao << endl;
 	
 	// Se vc tentar dar um novo valor a uma constante 'ex: PONTOS_ALIEN = 200;'
-	// Ir√° ocorrer um erro de compila√ß√£o
-	// ERROR: Atribui√ß√£o da vari√°vel de somente leitura 'PONTOS_ALIEN' 
+	// Ir· ocorrer um erro de compilaÁ„o
+	// ERROR: AtribuiÁ„o da vari·vel de somente leitura 'PONTOS_ALIEN' 
 	
 	
-	// Uma enumera√ß√£o √© um conjunto de constantes inteiras sem sinal, chamadas de 
+	// Uma enumeraÁ„o È um conjunto de constantes inteiras sem sinal, chamadas de 
 	// enumeradores.
-	// Por padr√£o, o valor de um enumerador come√ßa em 0 e √© incrementado de 1.
+	// Por padr„o, o valor de um enumerador comeÁa em 0 e È incrementado de 1.
 	
 	enum dificuldade{NOVATO, FACIL, NORMAL, DIFICIL, IMPOSSIVEL};
 	// Nesse caso NOVATO == 0, FACIL == 1, NORMAL == 2. DIFICIL == 3, IMPOSSIVEL == 4
@@ -28,7 +30,7 @@ int main()
 	dificuldade jogo1 = FACIL;
 	cout << "DIFICULDADE: " << jogo1 << endl;
 	
-	// Note que, qualquer enumerador que n√£o recebe um valor tem seu valor posto 
+	// Note que, qualquer enumerador que n„o recebe um valor tem seu valor posto 
 	// como o valor do predecessor + 1.
 	enum navePreco{NAVE_DE_COMBATE = 25, NAVE_BOMBARDEIRA, NAVE_CRUZADOR = 50};
 	navePreco precoMinhaNave = NAVE_BOMBARDEIRA;

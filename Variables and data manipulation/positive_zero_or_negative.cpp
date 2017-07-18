@@ -1,23 +1,25 @@
 #include <iostream>
 #include <math.h>
+#include <locale.h>
 
 using namespace std;
 
 int main()
 {
+	setlocale (LC_ALL,"Portuguese");
 	double num;
 	
-	cout << "Informe um numero: ";
+	cout << "Informe um número: ";
 	cin >> num;
 	
 	if(num < 0) {
-		cout << "O numero informado e negativo." << endl;
+		cout << "O número informado é negativo." << endl;
 	} 
 	else if(num == 0){
-		cout << "O numero informado e zero." << endl;
+		cout << "O número informado é zero." << endl;
 	}
 	else {
-		cout << "O numero informado e positivo." << endl;
+		cout << "O número informado é positivo." << endl;
 	}
 	
 	system("pause");
