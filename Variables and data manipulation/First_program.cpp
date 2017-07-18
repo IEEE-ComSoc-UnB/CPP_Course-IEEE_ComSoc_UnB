@@ -1,6 +1,6 @@
 using namespace std;
 
-int main() // This is a comment
+int main() // Isso e um comentario.
 {
 	/*
 	This is also a comment, in C-style.
