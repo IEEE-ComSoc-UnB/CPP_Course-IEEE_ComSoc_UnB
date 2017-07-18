@@ -16,8 +16,8 @@ int main()
 	p1.altura = 1.70;
 	
 	cout << p1.nome << " tem " << p1.idade 
-	<< " anos de idade, “ << p1.altura 
-	<< "m de altura e pesa " << p1.peso 
+	<< " anos de idade, "<< p1.altura
+	<< "m de altura e pesa " << p1.peso
 	<< "kg" << endl;
 
 	

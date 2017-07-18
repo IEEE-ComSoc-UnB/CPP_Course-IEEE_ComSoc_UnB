@@ -11,8 +11,13 @@ int main (){
 		using namespace first;
 		second::doSomething(5);
 	}
-	std::cout<< std::endl;
+	{
+		using first::doSomething;
+		doSomething(5);
+	}
 	second::doSomething(5);
+	
+	return 0;
 }
 
 

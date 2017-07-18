@@ -24,7 +24,7 @@ public:
     }
 	
     void listar_alunos(){
-  	cout << "Os alunos de " << d_nome << " sao:" << endl;
+  	cout << "Os alunos de " << d_nome << " são:" << endl;
 		
 	 for (list<Estudante*>::iterator it = alunos.begin(); it != alunos.end(); it++) {
     		cout << (*it)->getNome() << endl;

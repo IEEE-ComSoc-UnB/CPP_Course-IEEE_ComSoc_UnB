@@ -9,7 +9,7 @@ class Data{
 		int dia;
 		
 		void print() {
-			cout << ano << "/" << mes << "/" << dia
+			cout << ano << "/" << mes << "/" << dia<<endl;
 		}
 };
 

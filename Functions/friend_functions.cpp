@@ -7,17 +7,17 @@ int main()
 {
 	setlocale(LC_ALL, "Portuguese");
     /*
-		Uma fun√ß√£o friend √© usada para acessar todos os membros
-		da classe √° qual a fun√ß√£o tenha sido declarada como amiga.
+		Uma funÁ„o friend È usada para acessar todos os membros
+		da classe da qual a funÁ„o tenha sido declarada como amiga.
 		
-		√Äs vezes, uma fun√ß√£o pode precisar acessar duas classes separadas.
-		Em C++, uma fun√ß√£o pode acessar as duas classses, mesmo que ela n√£o seja
-		membro de nenhuma das classes. Voc√™ faz isso ao declarar tal fun√ß√£o como
+		¿s vezes, uma funÁ„o pode precisar acessar duas classes separadas.
+		Em C++, uma funÁ„o pode acessar as duas classses, mesmo que ela n„o seja
+		membro de nenhuma das classes. VocÍ faz isso ao declarar tal funÁ„o como
 		uma amiga das classes que ela deseja acessar.
 		
 		Uma fun√ß√£o friend pode ser:
-			* Uma fun√ß√£o que n√£o √© membro.
-			* Uma fun√ß√£o de membro de uma classe definida
+			* Uma funÁ„o que n„o È membro.
+			* Uma funÁ„o de membro de uma classe definida
 			  anteriormente.
 			* Uma classe inteira.			 		 
 	*/

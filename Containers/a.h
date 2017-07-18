@@ -5,7 +5,7 @@ namespace first
 
 	void doSomething(int x)
 	{
-	    std::cout << x;
+	    std::cout << x<<std::endl;
 	}
 }
 
