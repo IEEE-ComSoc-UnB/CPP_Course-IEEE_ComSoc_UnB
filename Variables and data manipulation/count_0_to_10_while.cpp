@@ -1,21 +1,22 @@
 #include <iostream>
-#include <locale.h>
 
 using namespace std;
 
-int main()
+int main ()
 {
-	setlocale (LC_ALL,"Portuguese");
-	int cnt = 10;
+	cout << "Esse programa conta de 0 a 10." << endl; 
 	
-	cout << "Esse programa conta de 10 até 0." << endl;
+//Implementando o for usando o while
+	int i = 0;	//Declara o contador
+	while(i <= 10)	//condição para execução do bloco de instruções
+	{	
+		cout<<i<<endl;	//Bloco de instrução equivalente
+						//ao do for
+		
+		i++;	//incremento do contador
+	}
 	
-	while(cnt >= 0){
-		cout << cnt << endl;
-		cnt--;
-	}	
-	
-	system("pause");
+	system ("Pause");
 	return 0;
 }
 
