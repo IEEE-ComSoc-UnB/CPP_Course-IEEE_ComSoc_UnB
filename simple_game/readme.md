@@ -1,2 +1,2 @@
 
-Um jogo simples que mostra alguma das características dos loops e do uso incorreto da intrução <b>continue</b>.
+Um jogo simples que mostra algumas das características dos loops e do uso incorreto da instrução <b>continue</b>.
