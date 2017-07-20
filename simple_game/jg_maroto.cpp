@@ -48,7 +48,7 @@ int main()
 	
 		
 	
-		// Embaralhando a fpalavra
+		// Embaralhando a palavra
 		string embaralhada = aPalavra;
 		int tamanho = embaralhada.length();
 		for (int i = 0; i < tamanho; ++i )
