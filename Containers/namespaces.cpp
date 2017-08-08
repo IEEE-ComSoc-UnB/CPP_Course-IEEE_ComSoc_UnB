@@ -2,20 +2,24 @@
 #include "a.h"
 #include "b.h"
 
-/*int main (){
-	doSomething(5);
+/*
+int main ()
+{	
+	std::cout<<um_numero <<std::endl;
 }*/
 
-int main (){
+
+int main ()
+{
 	{
 		using namespace first;
-		second::doSomething(5);
+		std::cout<<second::um_numero<<std::endl;	//deve printar o valor 10
 	}
 	{
-		using first::doSomething;
-		doSomething(5);
+		using first::um_numero;
+		std::cout<<um_numero<<std::endl;	//deve printar o valor 5
 	}
-	second::doSomething(5);
+	std::cout<<second::um_numero <<std::endl;	//deve printar o valor 10
 	
 	return 0;
 }

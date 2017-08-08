@@ -1,10 +1,4 @@
-#include <iostream> 
-
 namespace second
 {
-
-	void doSomething(int x)
-	{
-	    std::cout << x*2<<std::endl;
-	}
+	int um_numero = 10;
 }
