@@ -13,6 +13,8 @@ int main()
 	cout << "May the fourth be with you!"<< endl;
 	dt.print();
 	
+	cout << sizeof(dt)<<endl;
+	
 	system("pause");
 	return 0;
 }
