@@ -1,8 +1,3 @@
-#include <iostream> 
-
-void doSomething(int x)
-{
-    std::cout << x*3;
-}
+int um_numero = 10;
 
 

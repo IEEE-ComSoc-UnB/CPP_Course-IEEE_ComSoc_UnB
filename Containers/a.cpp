@@ -1,8 +1,2 @@
-#include <iostream> 
-
-void doSomething(int x)
-{
-    std::cout << x;
-}
-
+int um_numero = 5;
 

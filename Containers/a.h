@@ -1,11 +1,5 @@
-#include <iostream> 
-
 namespace first
 {
-
-	void doSomething(int x)
-	{
-	    std::cout << x<<std::endl;
-	}
+	int um_numero = 5;
 }
 
