@@ -1,3 +1,5 @@
+//Sem a inclusao da bilbioteca iostream o programa nao pode usar o comando cout
+//com isso, ha um erro de compilacao
 //#include <iostream>
 #include <locale>
 
