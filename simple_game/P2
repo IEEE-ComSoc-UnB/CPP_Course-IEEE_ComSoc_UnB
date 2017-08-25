@@ -1,0 +1,10 @@
+Você abre o Google e descobre que:
+1.	HTML é uma linguagem de marcação utilizada na construção de páginas na Web. 
+2.	Documentos HTML podem ser interpretados por navegadores.
+3.	Cascading Style Sheets (CSS) é um simples mecanismo para adicionar estilo (cores, fontes, espaçamento etc) a um documento web. 
+4.	Em vez de colocar a formatação dentro do documento, o CSS cria um link (ligação) para uma página que contém os estilos.
+5.	JavaScript é uma linguagem de programação na qual os scripts podem ser executados do lado do cliente e interagir com o usuário sem a necessidade deste script passar pelo servidor.
+
+
+Suponha que você foi designado para desenvolver um hotsite de um evento oficial da ComSoc UNB. 
+Sabendo disso, implemente, utilizando HTML, CSS e JavaScript, um hotsite para divulgar o evento mostrado na imagem dessa pasta. Utilize o maior grau de interatividade possível. 
