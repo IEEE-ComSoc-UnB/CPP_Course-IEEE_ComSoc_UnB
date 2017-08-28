@@ -2,6 +2,7 @@
 #include <locale.h>
 #include <string>
 #include <fstream>
+#include <cctype>
 
 using namespace std;
 
@@ -21,17 +22,58 @@ int main()
 		A função close() é usada para desconectar explicitamente um arquivo de um programa.
 		 	
 	*/
-	char letra;
+	string linha;
+	char letra('a');
 	ifstream leitura;
-	leitura.open("batata.txt");
+	// Abrir arquivo!
+	leitura.open("numeros.txt");
+	//leitura.open("./files/numeros.txt");
+	//leitura.open("../numeros.txt");
+	//leitura.open("C:\\Users\\Calil\\Desktop\\numeros.txt");
+	double arr[4];
 	
+	// Caso o arquivo nao exista: 
 	if(!leitura.is_open( )) 
 	{
 	cout<<"Não foi possível abrir arquivo! Programa será terminado!\n";
-	leitura.clear( ); //reseta o objeto leitura, para limpar memória do sistema}
 	}
 	
-	while (leitura.get(letra)) {cout << letra;}
+	// Imprimir linha por linha
+	while(getline(leitura,linha)){
+		cout << linha << endl;
+	}
+	
+	// Testar se o arquivo foi concluido
+	if(leitura.eof()){
+		cout << "Cheguei no final!" << endl;
+	}
+	
+	// Imprimir letra por letra: nao vai funcionar!
+	while(leitura.get(letra)){
+		cout << letra << endl;
+	}
+	
+	// Reset nas flags: fail ou eof
+	leitura.clear();
+	// Ir para posicao inicial
+	leitura.seekg(0);
+	
+	cout << endl;
+	// Iterar ate o primeiro numero
+	while(linha.find(":") == string::npos){
+		getline(leitura,linha);
+	}
+	
+	// Armazenar numeros em array
+	double valor;
+	unsigned int idx(0);
+	while(leitura >> valor && idx < 4){
+		arr[idx] = valor;
+		cout << arr[idx] << "	";
+		idx++;
+	}
+	
+	// É mais seguro fechar o arquivo explicitamente!
 	leitura.close();
 	
 	return 0;     

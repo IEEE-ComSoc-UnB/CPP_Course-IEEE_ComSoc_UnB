@@ -7,19 +7,23 @@ int main(){
 	setlocale(LC_ALL,"Portuguese");
 	
 	// Declarar enumeradores
-	enum cores{
+	enum Cor{
 		VERMELHO,
 		AZUL,
 		VERDE
 	};
-	enum frutas{
+	enum Fruta{
 		BANANA,
 		ABACATE,
 		LARANJA
 	};
 	
+	// Criar variaveis
+	Cor c1 = VERMELHO;
+	Fruta f1 = LARANJA;
+	
 	// Imprimir na tela
-	cout << VERMELHO << " + " << ABACATE << " = " << VERMELHO + ABACATE << endl;
+	cout << c1 << " + " << f1 << " = " << c1 + f1 << endl;
 		
 	system("pause");
 	return 0;

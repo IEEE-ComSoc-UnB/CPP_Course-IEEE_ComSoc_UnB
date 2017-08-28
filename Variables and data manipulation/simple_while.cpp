@@ -6,15 +6,17 @@ using namespace std;
 int main()
 {
 	setlocale (LC_ALL,"Portuguese");
-	int num;
+	double num;
 	
-	do{
-		cout << "Insira o nuúmero 92!" << endl;
+	cout << "Informe um numero: ";
+	cin >> num;
+	
+	while(num > 1){
+		num = num/2;
 		cout << num << endl;
-		cin >> num;
-	}while(num != 92);
+	}	
 	
-	system("Pause");
+	system("pause");
 	return 0;
 }
 
